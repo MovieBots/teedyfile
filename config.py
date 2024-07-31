@@ -10,29 +10,29 @@ from logging.handlers import RotatingFileHandler
 
 
 #Bot token @Botfather
-TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "7478531324:AAGt8Uxngk1Jh0rYtjXcXlTSmuAylu3RANw")
+TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "7368791824:AAFOp8un-sNU4Nfp8gbsRd2wMeYKeISsJL0")
 #Your API ID from my.telegram.org
-APP_ID = int(os.environ.get("APP_ID", "29236719"))
+APP_ID = int(os.environ.get("APP_ID", "23162583"))
 #Your API Hash from my.telegram.org
-API_HASH = os.environ.get("API_HASH", "1ccf1bd0a86af974e3210a55f662c062")
+API_HASH = os.environ.get("API_HASH", "e7285f02f830443481eb7953a98508ed")
 #Your db channel Id
-CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002222465571"))
+CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1001995027026"))
 # NAMA OWNER
-OWNER = os.environ.get("OWNER", "Arpitbotmovies")
+OWNER = os.environ.get("OWNER", "DD_Ongoing_HAnimes")
 #OWNER ID
-OWNER_ID = int(os.environ.get("OWNER_ID", "893383574"))
+OWNER_ID = int(os.environ.get("OWNER_ID", "6747126432"))
 #Port
 PORT = os.environ.get("PORT", "8030")
 #Database
 DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://keshavptdr98:D8lbdQUW4euV07l4@cluster0.dok926y.mongodb.net/?retryWrites=true&w=majority")
 DB_NAME = os.environ.get("DATABASE_NAME", "Cluster0")
 #force sub channel id, if you want enable force sub
-FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1002236830447"))
-FORCE_SUB_CHANNEL2 = int(os.environ.get("FORCE_SUB_CHANNEL2", "-1002208746092"))
+FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1002056364748"))
+FORCE_SUB_CHANNEL2 = int(os.environ.get("FORCE_SUB_CHANNEL2", "-1001972083009"))
 
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 
-START_PIC = os.environ.get("START_PIC", "https://telegra.ph/file/ec17880d61180d3312d6a.jpg")
+START_PIC = os.environ.get("START_PIC", "https://telegra.ph/file/d8231559f940cb1fdfdec.jpg")
 FORCE_PIC = os.environ.get("FORCE_PIC", "https://telegra.ph/file/e292b12890b8b4b9dcbd1.jpg")
 
 HELP_TXT = "<b>ᴛʜɪs ɪs ᴀɴ ғɪʟᴇ ᴛᴏ ʟɪɴᴋ ʙᴏᴛ ᴡᴏʀᴋ ғᴏʀ @otakuflix_network\n\n❏ ʙᴏᴛ ᴄᴏᴍᴍᴀɴᴅs\n├/start : sᴛᴀʀᴛ ᴛʜᴇ ʙᴏᴛ\n├/about : ᴏᴜʀ Iɴғᴏʀᴍᴀᴛɪᴏɴ\n└/help : ʜᴇʟᴘ ʀᴇʟᴀᴛᴇᴅ ʙᴏᴛ\n\n sɪᴍᴘʟʏ ᴄʟɪᴄᴋ ᴏɴ ʟɪɴᴋ ᴀɴᴅ sᴛᴀʀᴛ ᴛʜᴇ ʙᴏᴛ ᴊᴏɪɴ ʙᴏᴛʜ ᴄʜᴀɴɴᴇʟs ᴀɴᴅ ᴛʀʏ ᴀɢᴀɪɴ ᴛʜᴀᴛs ɪᴛ.....!\n\n ᴅᴇᴠᴇʟᴏᴘᴇᴅ ʙʏ <a href=https://t.me/cosmic_freak>sᴜʙᴀʀᴜ</a></b>"
